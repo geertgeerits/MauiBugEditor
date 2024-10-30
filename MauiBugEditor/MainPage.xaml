@@ -7,7 +7,7 @@
         <Grid
             RowDefinitions="Auto, *, Auto"
             ColumnDefinitions="130*, 100, 130*, 1"
-            HorizontalOptions="Center"
+            HorizontalOptions="Fill"
             Margin="0,0,4,5">
 
             <Label
@@ -23,13 +23,13 @@
 
                 <Grid
                     RowDefinitions="300*"
-                    HorizontalOptions="Center">
+                    HorizontalOptions="Fill">
 
                     <Border
                         Grid.Row="0"
                         Grid.Column="0"
-                        HorizontalOptions="FillAndExpand"
-                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"
                         Margin="10,10,15,10"
                         Stroke="Gray">
 
@@ -38,8 +38,8 @@
                             
                             <Editor
                                 x:Name="edtOcrResult"
-                                HorizontalOptions="FillAndExpand"
-                                VerticalOptions="FillAndExpand"
+                                VerticalOptions="Fill"
+                                HorizontalOptions="Fill"
                                 AutoSize="TextChanges"
                                 VerticalTextAlignment="Start"
                                 Text="">
